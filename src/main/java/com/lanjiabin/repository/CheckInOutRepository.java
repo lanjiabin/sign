@@ -17,13 +17,13 @@ public interface CheckInOutRepository  extends JpaRepository<CheckInOutPojo,Inte
      *         "worktime":"21:02:56",
      *         "singntime":"2019-09-02T14:01:35.000+0000",
      *         "userid":191,
-     *         "name":"蓝家彬",
+     *         "name":"蓝傲凌",
      *         "ymd":"2019-09-02"
      *     },
      *     {
      *         "worktime":"21:02:56",
      *         "userid":191,
-     *         "name":"蓝家彬",
+     *         "name":"蓝傲凌",
      *         "ymd":"2019-09-02",
      *         "singntime":"2019-09-02T23:04:31.000+0000"
      *     }
