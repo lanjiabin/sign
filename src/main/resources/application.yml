@@ -1,0 +1,15 @@
+server:
+  port: 81
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://111.230.220.87:3306/hongshi?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    username: lan
+    password: 701013
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
